@@ -26,16 +26,14 @@
 
 let person = 
         {
-                firstName:"Tilo",
+                firstName:"Thilo",
                 familyName:"Schönemeyer",
                 salary:[120000,160000],
                 permission: true,
                 sayHello: 
-                        function() {
-                                return "Hello!";
-                        }
-
-
+                function() {
+                  return "Hallo, ich bin " + this.firstName;
+                }
         };
 
 
